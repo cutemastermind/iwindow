@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\maste\\Desktop\\codenz\\iwindow\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F1F12D60-685A-47FD-BD5D-83C31E11F836}|iwindow.vcxproj|C:\\Users\\maste\\Desktop\\codenz\\iwindow\\context.cxx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F1F12D60-685A-47FD-BD5D-83C31E11F836}|iwindow.vcxproj|solutionrelative:context.cxx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1F12D60-685A-47FD-BD5D-83C31E11F836}|iwindow.vcxproj|C:\\Users\\maste\\Desktop\\codenz\\iwindow\\context.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F1F12D60-685A-47FD-BD5D-83C31E11F836}|iwindow.vcxproj|solutionrelative:context.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F1F12D60-685A-47FD-BD5D-83C31E11F836}|iwindow.vcxproj|C:\\Users\\maste\\Desktop\\codenz\\iwindow\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F1F12D60-685A-47FD-BD5D-83C31E11F836}|iwindow.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -14,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\maste\\Desktop\\codenz\\iwindow\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
@@ -27,6 +35,33 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-25T18:36:26.514Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "context.cxx",
+              "DocumentMoniker": "C:\\Users\\maste\\Desktop\\codenz\\iwindow\\context.cxx",
+              "RelativeDocumentMoniker": "context.cxx",
+              "ToolTip": "C:\\Users\\maste\\Desktop\\codenz\\iwindow\\context.cxx",
+              "RelativeToolTip": "context.cxx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-25T21:02:46.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "context.h",
+              "DocumentMoniker": "C:\\Users\\maste\\Desktop\\codenz\\iwindow\\context.h",
+              "RelativeDocumentMoniker": "context.h",
+              "ToolTip": "C:\\Users\\maste\\Desktop\\codenz\\iwindow\\context.h",
+              "RelativeToolTip": "context.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-25T21:02:06.595Z",
               "EditorCaption": ""
             }
           ]

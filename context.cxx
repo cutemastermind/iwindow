@@ -13,6 +13,11 @@ void iwin::button(HDC* hdc, const char* label)
 
 }
 
+void iwin::text(HDC* hdc, const char* s)
+{
+
+}
+
 void iwin::iwin_free()
 {
 	DeleteObject(iwin::brush);
