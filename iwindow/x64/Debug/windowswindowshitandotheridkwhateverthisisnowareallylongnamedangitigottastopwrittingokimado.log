@@ -1,9 +1,0 @@
-﻿  context.cxx
-C:\Users\maste\Desktop\codenz\windowswindowshitandotheridkwhateverthisisnowareallylongnamedangitigottastopwrittingokimado\context.cxx(12,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-  iwindow.cpp
-C:\Users\maste\Desktop\codenz\windowswindowshitandotheridkwhateverthisisnowareallylongnamedangitigottastopwrittingokimado\iwin\iwindow.cpp(13,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-  main.cpp
-  Generating Code...
-  windowswindowshitandotheridkwhateverthisisnowareallylongnamedangitigottastopwrittingokimado.vcxproj -> C:\Users\maste\Desktop\codenz\windowswindowshitandotheridkwhateverthisisnowareallylongnamedangitigottastopwrittingokimado\x64\Debug\iwindow.exe
-  'pwsh.exe' is not recognized as an internal or external command,
-  operable program or batch file.

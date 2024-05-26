@@ -2,3 +2,7 @@
 /build/
 /out/
 /x64/
+/iwindow/
+
+*.exe
+*.pdb
