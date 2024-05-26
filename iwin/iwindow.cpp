@@ -13,6 +13,18 @@ void itextsz(int posx, int posy, const char* string, HDC* thdc)
 	TextOutA((*thdc), posx, posy, string, strlen(string));
 }
 
+void itextsz_colored(int posx, int posy, const char* string, COLORREF text_colour, HDC* thdc)
+{
+	SetTextColor(*thdc, text_colour);
+	SetBkMode(*thdc, TRANSPARENT);
+	TextOutA(*thdc, posx, posy, string, strlen(string));
+}
+
+void icheckbox(irect rect, ibrush_t* hbrush, HDC* thdc)
+{
+	ibutton_t::create_checkbox(ivector2d(rect.x, rect.y), rect.width, rect.height, hbrush, thdc);
+}
+
 ibrush_t icolorset(icolor_t icol, ibrush_t* hbrush)
 {
 	icolor ticol(210, 205, 200);

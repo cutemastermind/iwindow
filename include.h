@@ -2,6 +2,8 @@
 
 #include <Windows.h>
 #include <iostream>
+#include <io.h>
+#include <fcntl.h>
 
 #include "iwin/iwindow.h"
 #include "elements/util/vector.h"
