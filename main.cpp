@@ -4,12 +4,10 @@
 
 int WINAPI WinMain(_In_ HINSTANCE hInst, _In_opt_ HINSTANCE hPrevInstance, _In_ LPSTR lpCmdLine, _In_ int nCmdShow)
 {
-	
-	
 
 	while (1)
 	{
-		if (!iwin::iwin_create(&hInst, &nCmdShow, "windowyippy", "someclassname"))
+		if (!iwin::iwin_create(&hInst, &nCmdShow, L"windowyippy", L"someclassname"))
 		{
 			std::cerr << "Failed to create wndow\n";
 		}

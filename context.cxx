@@ -3,7 +3,7 @@
 
 LRESULT CALLBACK WindowProc(HWND wnd, UINT msg, WPARAM wparam, LPARAM lparam);
 
-IWINBOOL iwin::iwin_create(HINSTANCE* hInst, int* n_cmd_show, const char* window_name, const char* window_class_name)
+IWINBOOL iwin::iwin_create(HINSTANCE* hInst, int* n_cmd_show, const wchar_t* window_name, const wchar_t* window_class_name)
 {
 
 	WNDCLASS window_class = {};
@@ -13,7 +13,7 @@ IWINBOOL iwin::iwin_create(HINSTANCE* hInst, int* n_cmd_show, const char* window
 
 	RegisterClass(&window_class);
 
-	HWND handlewindow = CreateWindowExA(
+	HWND handlewindow = CreateWindowEx(
 		NULL,
 		window_class_name,
 		window_name,
