@@ -1,7 +1,6 @@
 #pragma once
 
-typedef enum
-{
+typedef enum {
 	ICOLWHITE = 0,
 	ICOLRED,
 	ICOLBLUE,

@@ -1,13 +1,19 @@
 #pragma once
 
 #include "iwin/iwindow.h"
+#include <iostream>
+
+#define IWIDTH 500
+#define IHEIGHT 400
 
 namespace iwin
 {
+
+	IWINBOOL iwin_create(HINSTANCE* hInst, int* n_cmd_show, const char* window_name, const char* window_class_name);
+
 	inline ibrush_t brush;
 
 	void button(HDC* hdc, const char* label);
-	void text(HDC* hdc, const char* s);
 
 	void iwin_free();
 
