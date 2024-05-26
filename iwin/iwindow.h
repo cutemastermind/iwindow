@@ -5,6 +5,9 @@
 #include "../elements/util/icolor.h"
 
 #define IWINAPI extern
+#define IWINBOOL bool
+#define IWINTRUE true
+#define IWINFALSE false
 typedef HBRUSH ibrush_t;
 
 void ibutton(irect rect, ibrush_t* hbrush, HDC* thdc);
