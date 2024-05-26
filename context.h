@@ -9,7 +9,7 @@
 namespace iwin
 {
 
-	IWINBOOL iwin_create(HINSTANCE* hInst, int* n_cmd_show, const char* window_name, const char* window_class_name);
+	IWINBOOL iwin_create(HINSTANCE* hInst, int* n_cmd_show, const wchar_t* window_name, const wchar_t* window_class_name);
 
 	inline ibrush_t brush;
 
